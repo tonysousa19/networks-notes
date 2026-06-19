@@ -1,0 +1,208 @@
+# Network Topologies
+
+## Definition
+
+Network topology describes the physical or logical arrangement of devices and connections in a network.
+
+It defines how computers, switches, routers, and other devices are connected and how data flows between them.
+
+A topology can be:
+
+- Physical topology: How devices are physically connected
+- Logical topology: How data moves through the network
+
+---
+
+# Bus Topology
+
+## Overview
+
+In a bus topology, all devices share a single central communication line called a backbone.
+
+Every device is connected to the same cable.
+
+## Characteristics
+
+- Simple design
+- Low cost
+- Easy to implement in small networks
+
+## Advantages
+
+- Requires less cable
+- Easy to set up
+
+## Disadvantages
+
+- If the main cable fails, the entire network goes down
+- Performance decreases with more devices
+- Difficult to troubleshoot
+
+## Example
+
+Older Ethernet networks.
+
+---
+
+# Star Topology
+
+## Overview
+
+In a star topology, all devices connect to a central device, usually a switch.
+
+The switch manages communication between devices.
+
+## Characteristics
+
+- Most common modern topology
+- Uses switches or access points
+
+## Advantages
+
+- Easy to manage
+- Easy to add new devices
+- Failure of one device does not affect others
+
+## Disadvantages
+
+- If the central switch fails, the network stops
+- Requires more cable
+
+## Example
+
+Most home and office networks.
+
+---
+
+# Ring Topology
+
+## Overview
+
+In a ring topology, devices are connected in a circular structure.
+
+Data travels from one device to another until it reaches the destination.
+
+## Characteristics
+
+- Each device has two connections
+- Data usually moves in one direction
+
+## Advantages
+
+- Predictable data flow
+- Can handle traffic efficiently
+
+## Disadvantages
+
+- Failure of one connection can affect the entire network
+- Harder to maintain
+
+---
+
+# Mesh Topology
+
+## Overview
+
+In a mesh topology, devices have multiple connections between them.
+
+Each device can communicate through different paths.
+
+## Types
+
+### Full Mesh
+
+Every device connects directly to every other device.
+
+### Partial Mesh
+
+Only important devices have multiple connections.
+
+## Advantages
+
+- High reliability
+- Redundant paths
+- If one connection fails, another path can be used
+
+## Disadvantages
+
+- Expensive
+- Complex installation
+
+## Example
+
+Internet backbone networks.
+
+---
+
+# Tree Topology
+
+## Overview
+
+A tree topology combines characteristics of star and bus topologies.
+
+Devices are organized in a hierarchical structure.
+
+## Characteristics
+
+- Uses multiple levels
+- Common in large organizations
+
+## Advantages
+
+- Easy to expand
+- Supports large networks
+
+## Disadvantages
+
+- Failure in a higher-level device can affect many devices
+- More complex management
+
+---
+
+# Hybrid Topology
+
+## Overview
+
+A hybrid topology combines two or more different topologies.
+
+Examples:
+
+- Star + Mesh
+- Star + Ring
+
+## Advantages
+
+- Flexible
+- Can be customized for different needs
+
+## Disadvantages
+
+- More complex
+- Higher cost
+
+---
+
+# Topology Comparison
+
+| Topology | Main Idea | Reliability |
+|---|---|---|
+| Bus | Single backbone cable | Low |
+| Star | Central switch | Medium/High |
+| Ring | Circular connection | Medium |
+| Mesh | Multiple paths | High |
+| Tree | Hierarchical structure | Medium |
+| Hybrid | Combination | Depends on design |
+
+---
+
+# Cybersecurity Importance
+
+Understanding network topologies helps security professionals:
+
+- Identify critical devices
+- Understand traffic flow
+- Find possible points of failure
+- Design better security controls
+- Analyze attack paths
+
+Network structure affects how attacks spread and how defenses should be implemented.
